@@ -1,10 +1,11 @@
 {
     "java.project.sourcePaths": [
+        "games.java",
         "SimpleCodes.java",
         "PracticeSet2.java",
         "PracticeSet1.java",
         "PracticeSet04.java",
         "PracticeSet03.java",
-        "games.java"
+        "PracticeSet05.java"
     ]
 }
