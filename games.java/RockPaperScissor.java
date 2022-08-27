@@ -7,10 +7,11 @@ public class RockPaperScissor{
         int rounds = 0;
         int compResult = 0;
         int playerResult = 0;
-        int tie = 0;  
+        int tie = 0; 
+        System.out.println("You will play 5 rounds"); 
         while(rounds<5){
             rounds++;
-            // Selecting computer,s choice:
+            // Selecting computer's choice:
             int compNo = r.nextInt(1,4);
             String compChoice = null;
             switch(compNo){
