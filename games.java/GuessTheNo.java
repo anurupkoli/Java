@@ -8,7 +8,6 @@ class Game{
     public Game(){
         Random r = new Random();
         compNo = r.nextInt(0,101);
-        // System.out.println(compNo);
     }
 
     public void setPlayerNo(){
