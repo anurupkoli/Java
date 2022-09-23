@@ -49,5 +49,6 @@ public class Set6_Pr_04 {
             }
             System.out.println("");
         }
+        s.close();
     }
 }
