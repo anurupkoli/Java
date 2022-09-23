@@ -9,5 +9,6 @@ public class Set5_Pr_11 {
             sum += i*2;
         }
         System.out.printf("Sum of first %d even numbers = %d", n, sum);
+        s.close();
     }
 }

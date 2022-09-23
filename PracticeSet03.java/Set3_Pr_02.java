@@ -5,5 +5,6 @@ public class Set3_Pr_02 {
         String str = s.nextLine();
         String modifiedStr = str.replace(" ", "_");
         System.out.printf("The modified string is: %s", modifiedStr);
+        s.close();
     }
 }

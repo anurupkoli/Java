@@ -23,5 +23,6 @@ public class Set6_pr_06 {
         }
         
         System.out.printf("is %d",maxNo);
+        s.close();
     }    
 }

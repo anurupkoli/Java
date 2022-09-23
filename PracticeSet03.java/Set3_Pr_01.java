@@ -5,5 +5,6 @@ public class Set3_Pr_01 {
         String str = s.nextLine();
         String modifiedStr = str.toLowerCase();
         System.out.printf("The original string \'%s\' is converted to lower case: %s", str, modifiedStr);
+        s.close();
     }
 }

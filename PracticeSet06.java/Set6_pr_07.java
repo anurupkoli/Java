@@ -23,5 +23,6 @@ public class Set6_pr_07 {
         }
         
         System.out.printf("is %d",minNo);
+        s.close();
     }    
 }

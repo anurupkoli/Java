@@ -21,5 +21,6 @@ public class Set6_Pr_02 {
         else{
             System.out.printf("%d is not present in the array", no);
         }
+        s.close();
     }
 }

@@ -18,5 +18,6 @@ public class Set4_pr_02{
         else{
             System.out.println("You are Failed");
         }
+        s.close();
     }
 }

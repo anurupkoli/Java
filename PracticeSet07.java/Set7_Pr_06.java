@@ -18,6 +18,7 @@ public class Set7_Pr_06 {
         }
         float sum = arrayAve(arr);
         System.out.println(sum);
+        s.close();
     }
     
 }

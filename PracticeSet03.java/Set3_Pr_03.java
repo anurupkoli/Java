@@ -7,5 +7,6 @@ public class Set3_Pr_03 {
         String name = s.nextLine();
         letter  = letter.replace("<|name|>",name);
         System.out.println(letter);
+        s.close();
     }
 }

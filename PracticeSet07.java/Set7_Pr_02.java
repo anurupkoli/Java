@@ -12,6 +12,7 @@ public class Set7_Pr_02 {
         Scanner s = new Scanner(System.in);
         System.out.print("Enter no. of lines of stars you want to print: ");
         int no = s.nextInt();
+        s.close();
         star1(no);
     }    
 }

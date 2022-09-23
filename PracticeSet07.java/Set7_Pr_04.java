@@ -12,6 +12,7 @@ public class Set7_Pr_04 {
         Scanner s = new Scanner(System.in);
         System.out.print("Enter number of lines of stars you want: ");
         int no = s.nextInt();
+        s.close();
         starPattern(no);
     }
 }

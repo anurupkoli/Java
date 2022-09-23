@@ -14,6 +14,7 @@ public class Set7_Pr_05 {
         int no = s.nextInt();
         int fibNo = fiboNo(no);
         System.out.printf("%dth number of fibonacci series is: %d", no, fibNo);
+        s.close();
     }
     
 }

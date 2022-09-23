@@ -22,5 +22,6 @@ public class Set6_PR_08 {
         else{
             System.out.println("Your array is not sorted");
         }
+        s.close();
     }
 }

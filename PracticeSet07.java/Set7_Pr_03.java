@@ -12,5 +12,6 @@ public class Set7_Pr_03 {
         int no = s.nextInt();
         int sum = recursiveSum(no);
         System.out.println(sum);
+        s.close();
     }    
 }

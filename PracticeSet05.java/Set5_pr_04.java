@@ -7,5 +7,6 @@ public class Set5_pr_04 {
         for(int i=10; i!=0; i--){
             System.out.println(i*n);
         }
+        s.close();
     }
 }

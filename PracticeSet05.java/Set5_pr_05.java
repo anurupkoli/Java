@@ -9,5 +9,6 @@ public class Set5_pr_05 {
             factorial *= i;
         }
         System.out.printf("Factorial of %d = %d", n, factorial);
+        s.close();
     }
 }

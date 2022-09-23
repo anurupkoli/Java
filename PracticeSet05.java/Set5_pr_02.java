@@ -11,5 +11,6 @@ public class Set5_pr_02 {
             i++;
         }
         System.out.printf("Sum = %d\n", sum);
+        s.close();
     }
 }

@@ -22,5 +22,6 @@ public class Set4_Pr_03 {
             tax = tax + 0.3f * (income - 1000000);
         }
         System.out.printf("Total tax that you have to pay is: %f", tax);
+        s.close();
     }    
 }

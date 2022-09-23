@@ -1,4 +1,4 @@
-import java.lang.instrument.ClassFileTransformer;
+
 import java.util.Scanner;
 public class Set7_Pr_09 {
     static float celsiusTOFarenheit(float c){
@@ -11,5 +11,6 @@ public class Set7_Pr_09 {
         float celsius = s.nextFloat();
         float farenheit = celsiusTOFarenheit(celsius);
         System.out.printf("The value of %.2fC in Farenheit is: %.2fF", celsius,farenheit);
+        s.close();
     }
 }
