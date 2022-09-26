@@ -19,5 +19,6 @@ public class CalculateCGPA {
         double CGPA = percentage/9.5;
         System.out.println("Your percentage is: " + percentage);
         System.out.println("Your CGPA is: " + CGPA);
+        s.close();
     }
 }

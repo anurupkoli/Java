@@ -69,5 +69,6 @@ public class RockPaperScissor{
             System.out.printf("\nPlayer Won: %d\nComputer Won: %d\nTies: %d", playerResult, compResult, tie);
             System.out.printf("\nYou Lost the match!!");
         }
+        s.close();
     }
 }

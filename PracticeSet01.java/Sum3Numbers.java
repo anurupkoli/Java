@@ -11,6 +11,6 @@ public class Sum3Numbers {
         int num3 = s.nextInt();
 
         System.out.println("Sum of 3 numbers is: " + (num1+num2+num3));
-
+        s.close();
     }
 }

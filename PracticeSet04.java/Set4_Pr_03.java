@@ -7,7 +7,7 @@ public class Set4_Pr_03 {
         float tax = 0f;
 
         if(income <= 250000){
-            tax = tax;
+            tax = 0f;
         }
         else if(income > 250000 && income <= 500000){
             tax = tax + 0.05f * (income - 250000);

@@ -15,7 +15,7 @@ class Library{
     void displayBooks(){
         for(int i=0; i<this.list.length; i++){
             if(this.list[i] == null){
-                break;
+                continue;
             }
             System.out.print("*");
             System.out.println(this.list[i]);
@@ -26,11 +26,12 @@ class Library{
         System.out.print("Enter the name of book you want to issue: ");
         String book = s.nextLine();
         for(int i=0; i<list.length; i++){
-            if(book == this.list[i]){
+            if(book.equals(this.list[i])){
                 System.out.println(book + " has been issued.");
                 this.list[i] = null;
                 this.ele--;
-                return;            }
+                return;            
+            }
         }
         System.out.println( book+" is not available.");
     }
@@ -43,20 +44,23 @@ class Library{
         this.ele++;
     }
 
-
+    void returnBook(){
+        ele++;
+        addBook();
+    }
 }
 
 
-public class library {
+public class libraryReva {
     public static void main(String[] args){
         Library lib = new Library();
         boolean b = true;
         Scanner s = new Scanner(System.in);
 
         while(b){
-            System.out.println("Welcome to My Library");
+            System.out.println("\nWelcome to My Library");
             System.out.println("Select from following options:");
-            System.out.print("1. Display books\n2. Issue book\n3. Add book\n4. Exit");
+            System.out.print("1. Display books\n2. Issue book\n3. Add book\n4. Return book\n5. Exit\n");
             int option = s.nextInt();
             if(option == 1){
                 lib.displayBooks();
@@ -74,8 +78,14 @@ public class library {
             }
 
             else if(option == 4){
+                lib.returnBook();
+            }
+
+            else if(option == 5){
+                System.out.println("Thankyou for using my library.");
                 b = false;
             }
         }
+        s.close();
     }
 }

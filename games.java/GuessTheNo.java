@@ -14,6 +14,7 @@ class Game{
         Scanner s = new Scanner(System.in);
         System.out.print("Enter your number: ");
         playerNo = s.nextInt();
+        s.close();
     }
 
     public void isCorrectNo(){
@@ -36,6 +37,7 @@ class Game{
     public int noOfGuesses(){
         return guesses;
     }
+    
 }
 
 public class GuessTheNo {
