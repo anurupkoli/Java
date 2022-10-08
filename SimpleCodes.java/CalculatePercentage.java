@@ -17,6 +17,7 @@ public class CalculatePercentage {
 
         float percentage = ((sub1+sub2+sub3+sub4+sub5)/total)*100;
         System.out.println("Your percentage is: " + percentage + "%");
+        s.close();
     }
     
 }

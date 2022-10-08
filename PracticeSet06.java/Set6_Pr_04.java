@@ -5,7 +5,8 @@ public class Set6_Pr_04 {
         int [][]matrix1 = new int[2][3];
         int [][]matrix2 = new int[2][3];
         int [][]matrixSum = new int[2][3];
-
+        // System.out.println(matrix1.length);
+        // System.out.println(matrix2.length);
         System.out.println("Enter the elements of 1st matrix: ");
         for(int i=0; i<matrix1.length; i++){
             for(int j=0; j<matrix1[i].length; j++){
