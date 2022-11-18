@@ -111,7 +111,7 @@ class LinkedLists{
         Node newNode = l.head;
         if(newNode == null) return;
         int i = 0;
-        while(newNode.next != null){
+        while(newNode != null){
             
             if(newNode.data == ele){
                 System.out.println("Element found at: "+i);
@@ -120,7 +120,6 @@ class LinkedLists{
             i++; 
             newNode = newNode.next; 
         }
-        if(newNode.data == ele){System.out.println("Element found at: "+ i);}
         System.out.println("Element not found");
         
     }
@@ -159,6 +158,6 @@ public class UndLInkedList {
         ll.reverseList();
         ll.printList();
         // System.out.println(ll.getSize());
-        // ll.searchElement(ll, 22);
+        ll.searchElement(ll, 33);
     }
 }
