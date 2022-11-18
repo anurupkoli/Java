@@ -2,6 +2,7 @@
     "java.project.sourcePaths": [
         "games.java",
         "SimpleCodes.java",
+        "PracticeSet14.java",
         "PracticeSet12.java",
         "PracticeSet11.java",
         "PracticeSet10.java",
@@ -12,6 +13,6 @@
         "PracticeSet05.java",
         "PracticeSet04.java",
         "PracticeSet03.java",
-        "PracticeSet14.java"
+        "PracticeSet15.java"
     ]
 }
