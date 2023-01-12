@@ -29,7 +29,7 @@ class MyCalculator{
                 System.out.printf("Enter the values of a and b(Cannot hold values more than 1000000!!): ");
                 this.a = sc.nextInt();
                 this.b = sc.nextInt();
-                if(a > 100000 && b > 100000){
+                if(a > 100000 || b > 100000){
                     throw new MaxInputException();
                 }
                 break;
@@ -47,7 +47,7 @@ class MyCalculator{
                 System.out.printf("Enter the values of a and b(Cannot hold values more than 1000000!!): ");
                 this.a = sc.nextInt();
                 this.b = sc.nextInt();
-                if(a > 100000 && b > 100000){
+                if(a > 100000 || b > 100000){
                     throw new MaxInputException();
                 }
                 break;
@@ -65,7 +65,7 @@ class MyCalculator{
                 System.out.printf("Enter the values of a and b(Cannot hold values more than 1000000!!): ");
                 this.a = sc.nextInt();
                 this.b = sc.nextInt();
-                if(a > 100000 && b > 100000){
+                if(a > 100000 || b > 100000){
                     throw new MaxInputException();
                 }
                 break;
@@ -86,7 +86,7 @@ class MyCalculator{
                 System.out.printf("Enter the values of a and b(Cannot hold values more than 1000000!!): ");
                 this.a = sc.nextInt();
                 this.b = sc.nextInt();
-                if(a > 100000 && b > 100000){
+                if(a > 100000 || b > 100000){
                     throw new MaxInputException();
                 }
                 break;

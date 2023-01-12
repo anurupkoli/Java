@@ -59,7 +59,7 @@ class Polynomial{
         Node poly2 = poly.head;
         Node poly1 = head;
         Polynomial resultPoly = new Polynomial();
-        while((poly1 != null) || (poly2 != null)){
+        while((poly1 != null) && (poly2 != null)){
             if(poly1.pow > poly2.pow){
                 resultPoly.pushToPoly(poly1.coeff, poly1.pow);
                 poly1 = poly1.next;
