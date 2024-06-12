@@ -26,7 +26,7 @@ class Lamp{
     }
 }
 
-public class Prograrm4 {
+public class Program4 {
     public static void main(String[] args) {
         Lamp la = new Lamp();
         la.reportLampState();

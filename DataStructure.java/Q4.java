@@ -28,7 +28,7 @@ class BinarySearchTrees{
             root = new Node(data);
             return root;
         }
-        if(root.data > data){
+        if(root.data > data){                           
             root.left = insertRec(root.left, data);
         }
         else if(root.data < data){
